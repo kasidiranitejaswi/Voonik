@@ -1,0 +1,180 @@
+.topbar1{
+    display:inline-block;
+    list-style: none;
+    text-align: right;
+    border-left: 1px solid lightslategrey;
+    padding : 10px 5px;
+    font-display: 1px;
+    font-size: x-small;
+    font-family: sans-serif;
+    margin-left: -2px;
+
+}
+.u-list{
+    margin-bottom: 0px !important;
+}
+
+.x{
+  border-bottom: 1px solid lightslategrey;
+}
+
+.topbar1:nth-child(7) {
+    border-right: 1px solid lightslategrey;
+}
+
+.container{
+    padding-top: 10px;
+}
+
+
+.one{
+  color:black;
+  margin:0px;
+  padding:10px;
+}
+
+.two{
+    color:red;
+}
+
+.input-group{
+    margin-top: 10px;
+}
+
+.button-black{
+    background-color:black;
+    /* position: relative; */
+    /* bottom: 34px;
+    left: 406px; */
+}
+
+.logo{
+    display:inline-block;
+    margin-top: 17px;
+    padding-right: 5px;
+    margin:10px;
+
+}
+
+.logo1{
+    display: inline-block !important;
+    margin-top: 0;
+    margin-bottom:0px;
+}
+
+.icon1{
+    padding-left: 8px;
+}
+
+.icon2{
+    padding-left: 15px;
+}
+
+.icon3{
+    padding-left: 5px;
+}
+
+.image{
+    display:inline-block;
+    
+}
+
+.row{
+    padding-top: -3px;
+}
+
+.navbar-nav{
+    padding-left: 68px;
+    color:white;
+}
+
+.scroll{
+    padding-top: 0px;
+}
+
+.navbarpic{
+    padding-left: 70px;
+}
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+  }
+  .carousel-fade .carousel-inner .item,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+  }
+  .carousel-fade .carousel-inner .active,
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+  }
+  .carousel-fade .carousel-inner .next,
+  .carousel-fade .carousel-inner .prev,
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+  
+  .fade-carousel {
+      position: relative;
+      height: 100vh;
+  }
+  .fade-carousel .carousel-inner .item {
+      height: 100vh;
+  }
+  .fade-carousel .carousel-indicators > li {
+      margin: 0 2px;
+      background-color: #f39c12;
+      border-color: #f39c12;
+      opacity: .7;
+  }
+  .fade-carousel .carousel-indicators > li.active {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+  
+  .hero {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 3;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+        -webkit-transform: translate3d(-50%,-50%,0);
+           -moz-transform: translate3d(-50%,-50%,0);
+            -ms-transform: translate3d(-50%,-50%,0);
+             -o-transform: translate3d(-50%,-50%,0);
+                transform: translate3d(-50%,-50%,0);
+  }
+  .hero h1 {
+      font-size: 6em;    
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+  }
+
+  .form-control {
+    display: inline-block;
+    width: 91%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
