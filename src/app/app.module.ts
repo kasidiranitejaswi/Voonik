@@ -15,6 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { WesternwearComponent } from './westernwear/westernwear.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { RegisterComponent } from './register/register.component';
 import { CartComponent } from './cart/cart.component';
 
 
@@ -48,6 +49,7 @@ const routes: Routes = [
     DashboardComponent,
     WesternwearComponent,
     HomepageComponent,
+    RegisterComponent,
     CartComponent,
 
   ],

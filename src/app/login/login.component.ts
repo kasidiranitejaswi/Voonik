@@ -26,29 +26,29 @@ export class LoginComponent implements OnInit {
     )
   }
 
-  // login(){
-  //   if(this.loginForm.status == "INVALID"){
-  //     alert("Please Enter Valid Credentials")
-  //   }else{
+  login(){
+    if(this.loginForm.status == "INVALID"){
+      alert("Please Enter Valid Credentials")
+    }else{
       
-  //     this.appService.login(this.loginForm.value)
-  //       .subscribe(
-  //         (response) => {
-  //          this.loggedInUser = response;
-  //          console.log(response);
-  //          localStorage.setItem('token',this.loggedInUser.userToken);
-  //          localStorage.setItem('userId',this.loggedInUser.user._id);
-  //          localStorage.setItem('name',this.loggedInUser.user.name);
+      this.loginForm.value(this.loginForm.value)
+        .subscribe(
+          (response) => {
+           this.loggedInUser = response;
+           console.log(response);
+           localStorage.setItem('token',this.loggedInUser.userToken);
+           localStorage.setItem('userId',this.loggedInUser.user._id);
+           localStorage.setItem('name',this.loggedInUser.user.name);
 
-  //          if(this.loggedInUser.status){
-  //           this.loggedInUser = this.loggedInUser.user;
-  //          }else{
-  //            alert(this.loggedInUser.message);
-  //          }       
-  //         }
-  //       )
-  //     }  
-  // }
+           if(this.loggedInUser.status){
+            this.loggedInUser = this.loggedInUser.user;
+           }else{
+             alert(this.loggedInUser.message);
+           }       
+          }
+        )
+      }  
+  }
 
 }
 var modal = document.getElementById('id01');
